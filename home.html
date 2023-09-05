@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receitas Juliano's</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+<link rel="icon" href="C:\Users\italo\OneDrive\Imagens\prato-removebg-32px.png" type="image/png">
+
+<link rel="stylesheet" href="index.css" type="text/css">
+
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header{
+    width: 100%;
+    height: 10%;
+    float: left;
+  }
+
+  .conserto{
+    height: 80%;
+    width: 100%;
+    float: left;
+  }
+
+  nav{
+      height: 100%;
+      float: left;
+      width: 10%;
+    }
+
+    main{
+      height: 80%;
+      width: 70%;
+      float: left;
+      text-align: center;
+      flex: 1;
+      font-size: x-large;
+    }
+
+    aside{
+      height: 80%;
+      width: 30%;
+      float: left;
+      text-align: center;
+    }
+
+  footer{
+    height: 3%;
+    width: 100%;
+    float: left;
+    background-color: black;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+  }
+
+  .fonte_fim{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 12px;
+            font-style: italic;
+            color: white;
+        }
+
+        .fonte_titulo{
+          font-size: 400%;
+        }
+
+        .ordem{
+            display: flex;
+            flex: 1;
+        }
+
+        nav, main, aside{
+            flex: 1;
+            padding: 20px;
+            box-sizing: border-box;
+            height: 100%;
+        }
+
+        .container-imagem{
+            display: flex;
+            align-items: center;
+        }
+
+        .imagem{
+            max-width: 50%;
+            margin-right: 10px;
+        }
+
+        .info{
+        margin-bottom: 5px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid black;
+    }
+    </style>
+
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" id="ativo" href="home.html">Home</a>
+                  <a class="nav-link" href="receitas.html">Receitas</a>
+                  <a class="nav-link" href="cadastro.html">Cadastro</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <div class="ordem">
+
+
+        <nav ></nav>
+
+        <main style="margin-top: 10%;">
+            <div class="container-imagem info">
+                <img class="imagem" src="C:\Users\italo\OneDrive\Imagens\prato-sem-fundo.png" alt="imagem de um prato">
+                <h1 class="fonte-titulo">Receitas Juliano's</h1>
+            </div>
+
+            <p class="fonte_principal">
+                Seja bem-vindo(a) ao site de receitas
+            </p>
+            <p class="fonte_principal">da familia Juliano.</p>
+        </main>
+
+       <aside></aside>
+    </div>
+ 
+    <footer>
+        <p class="fonte_fim">&copy; Receitas Juliano's 2023</p>
+    </footer>
+</body>
+</html>
